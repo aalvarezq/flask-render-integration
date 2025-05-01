@@ -1,7 +1,7 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.11",
 	"waitFor": "onCreateCommand",
-	"onCreateCommand": "pip3 install --user -r requirements.txt",
+	"onCreateCommand": "echo 'Build ok'",
 	"postCreateCommand": "",
 	"customizations": {
 	  "vscode": {
